@@ -1,0 +1,47 @@
+// $ this means variable
+
+$my-custom-color: #f99;
+$font-family: "Open Sans", sans-serif;
+$secondary-font: "IBM Plex Mono", monospace;
+
+h1 {
+  color: $my-custom-color;
+  // font-family: $font-family;
+  // font-size: 5em;
+  // font-style: italic;
+  // font-weight: 700;
+  font: {
+    size: 5em;
+    family: $font-family;
+    weight: 700;
+    style: italic;
+  }
+  text: {
+    align: center;
+    transform: capitalize;
+    decoration: underline;
+  }
+  // text-align: center;
+  // text-transform:capitalize;
+  // text-decoration: underline;
+}
+
+section.parent {
+  border: 2px solid;
+
+  figure {
+    border: 10px solid red;
+    figcaption {
+      color: pink;
+      font-size: 3em;
+    }
+  }
+  button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(38, 124, 96);
+    &:hover {
+      background-color: bisque;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+h1 {
+  color: #f99;
+  font-size: 5em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+section.parent {
+  border: 2px solid;
+}
+section.parent figure {
+  border: 10px solid red;
+}
+section.parent figure figcaption {
+  color: pink;
+  font-size: 3em;
+}
+section.parent button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(38, 124, 96);
+}
+section.parent button:hover {
+  background-color: bisque;
+}/*# sourceMappingURL=main.css.map */
