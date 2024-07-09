@@ -1,0 +1,11 @@
+/* html or :root */
+:root {
+    --primary-color: rgb(227, 112, 18);
+    --secondary-color: rgb(51, 236, 9);
+    --tertiary-color: rgb(11, 209, 227);
+
+    --font-family: "Open Sans", sans-serif;
+    --secondary-font: "IBM Plex Mono", monospace;
+
+    --site-width: 1400px;
+}

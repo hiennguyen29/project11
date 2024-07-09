@@ -1,0 +1,13 @@
+h1 {
+    /* font-family: var(--secondary-font); */
+    font-family: "IBM Plex Mono", monospace;
+    color: var(--primary-color);
+    /*  we em and rem */
+    /* we already know that font size of html is 16px */
+    font-size: 4em;
+    font-style: italic;
+    /* 100 900 */
+    font-weight: 700;
+    text-align: center;
+}
+

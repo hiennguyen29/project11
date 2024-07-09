@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+h1 {
+  font-size: 5em;
+  color: #f11;
+}
+
+p {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: rgb(226, 208, 208);
+}
+
+img {
+  border: 10px solid;
+}
+
+body {
+  background-color: rgb(208, 208, 43);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */
